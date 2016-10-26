@@ -1,0 +1,143 @@
+body{
+	font-family: 'Segoe-semibold';
+}
+#theAlert{
+	display: block;
+}
+h1{
+	color:#009688;
+	font-size:80px;
+	margin-top:20px;
+}
+@font-face{
+	src:url("../bootstrap/fonts/seguisb.ttf");
+	font-family:'Segoe-semibold';
+}
+.contains{
+	border-top: solid;
+	border-bottom: solid;
+	
+	border-left: solid;
+	border-right: solid;
+	border-color: #009688;
+	border-radius: 10px;
+}
+.contact{
+	background-color: #009688;
+}
+.image{
+	
+	padding-bottom:50px;
+}
+
+.images{
+	padding-left:50px;
+	
+}
+.images1{
+	padding-right:50px;
+	
+}
+
+.navbarclass{
+	background:#009688;
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	
+}
+
+.header_letter{
+	color: white;
+	font-size: 50px;
+	font-family: 'Segoe-semibold';
+}
+
+.the_link_to_header_letter:hover{
+	
+	color: white;
+
+}
+
+.theBodyThe{
+	background: #fff;
+}
+
+.other_titles{
+	font-size: 16px;
+	font-family: 'Segoe-semibold';
+	color:  white;
+}
+
+.fonts_design_header{
+	font-size: 26px;
+	font-family: 'Segoe-semibold';
+	color: #555;	
+}
+
+.form_data_margin{
+	margin-top: 10px;
+	font-family: 'Segoe-semibold';
+}
+
+.galzzy_hazzy{
+	font-family: 'Segoe-semibold';
+	font-size: 16px;
+	color: #444;
+	font-style: italic;
+}
+
+.theLoginBodyPageCss{
+	background: url("../images/Aircraft_Runway_Airbus_A380.jpg");
+	background-size: cover;
+}
+.theLoginBodyPageCss1{
+	background-color: white;
+}
+
+
+.theBodyTheText{
+	color: #fff;
+}
+
+.some_seg_in{
+	font-family: 'Segoe-semibold';
+	font-size: 30px;
+	color: #555;
+}
+
+.form_data_margin1{
+	margin-top: 20px;
+}
+
+.width_elo{
+	width: 50%;
+}
+
+.propicresize{
+	height: 20px;
+}
+
+.each_question_layout{
+
+}
+
+.the_question_itself{
+	font-family: 'Segoe-semibold';
+	font-size: 17px;
+
+}
+
+.the_answers_themselevs{
+	font-family: 'Segoe-semibold';
+	font-size: 15px;
+
+}
+
+.color_hr_rule{
+	color: black;
+}
+
+.right_margin_true{
+	border-right: 1px solid #999;
+}

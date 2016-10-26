@@ -1,0 +1,85 @@
+<?php //require_once 'includes/func.php'; ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GreenCrunch Airways</title>
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+	
+	<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css1/styles.css">
+	<script src="jss/func.js"></script>
+	<link rel="stylesheet" type="text/css" href="css2/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css2/bootstrap-theme.css">
+	
+	<script src="js/bootstrap.js"></script>
+
+
+		
+</head>
+<body>
+
+<h1>GreenCrunch Airways</h1>
+<center><h6>Lets go places</h6></center>
+<?php 
+	require_once 'widgets/nav.php';
+	?><div class="container">
+  <h1>Fill in your Detail to book a flight</h1>
+
+	
+
+       <form action="contact.php" method="post" novalidate> 
+	      <div class="row">
+               <div class="form-group">
+  					<label class="col-lg-4" for="sel1">Title</label>
+          <select class="col-lg-4" id="sel1" name="title">
+            <option name="title" value="Mr">Mr</option>
+            <option name="title" value="Mrs">Mrs</option>
+            <option name="title" value="Miss">Miss</option>
+          </select>
+
+				</div>
+			</div>  </p>
+              <div class="row">
+            <div class="col-lg-4">id Number/Passport Number: </div>  
+                <div class="col-lg-4"><input type="text" name="id" id="fn" replacement="" class="form-control" required /> </div> 
+         </div> </p>        
+                
+
+
+         <div class="row">
+         		<div class="col-lg-4">First Name: </div>  
+                <div class="col-lg-4"><input type="text" name="fn" id="fn" replacement="Enter first name" class="form-control" required /> </div> 
+         </div> </p> 
+ 
+          <div class="row"> 
+              <div class="col-lg-4">Last Name: </div>                     
+              <div class="col-lg-4"> <input type="text" replacement="Enter last name" name="sn" id="sn" class="form-control" required/>
+              </div>   
+          </div> </p>
+
+          <div class="row"> 
+                <div class="col-lg-4">E-mail Adress: </div>                   
+                <div class="col-lg-4"> <input type="text" name="email" replacement="Enter your email address" id="email" class="form-control" required/></div>   
+           </div></p>
+           <div class="row"> 
+				<div class="col-lg-4">Cellphone: </div> 
+            <div class="col-lg-4"> 
+                        <input type="text" name="cellphone" id="cellphone" class="form-control" required/> 
+             </div>
+             </div>
+
+             <h1>How would you like to pay..</h1>
+                      <div class="col-lg-4"> 
+                      <input type="radio" name="pay" value="Mobile Money" id="gender_0" required/>   Mobile Money(Ecocash, Telecash, Nettcash)  </div>
+                       <div class="col-lg-4">
+                      <input type="radio" name="pay" value="Master Card" id="gender_1" required/> Card (Visa, Mastercard)     </div>
+                      
+                      <div class="col-lg-4"> <input type="radio" name="pay" value="Male" id="gender_0" required/>   Pay Later </div>
+                      <input type="submit" value="Book" name="book"></div>
+
+                </form>
+               </div>
+</div>
+</body>
+</html>
